@@ -154,3 +154,45 @@ footer {
 .home_li {
   color: #345576;
 }
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .container {
+    padding: 5% 5%;
+  }
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stat-item {
+    width: 100%;
+  }
+  .video_img {
+    width: 90%;
+  }
+  .play_button {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 32px;
+  }
+  button {
+    width: 180px;
+    height: 55px;
+    font-size: small;
+  }
+  .stats {
+    padding: 40px 10px;
+  }
+  .stat-item p {
+    font-size: 14px;
+  }
+}
