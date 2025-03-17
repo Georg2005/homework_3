@@ -164,12 +164,26 @@ footer {
   .container {
     padding: 5% 5%;
   }
+  .paragraph,
+  .paragraph_2 {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+  }
   .stats {
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 10px;
   }
   .stat-item {
     width: 100%;
+    text-align: center;
+  }
+  .stat-item img {
+    width: 50px;
+    height: auto;
   }
   .video_img {
     width: 90%;
@@ -189,10 +203,20 @@ footer {
     height: 55px;
     font-size: small;
   }
+  .paragraph,
+  .paragraph_2 {
+    width: 100%;
+    padding: 0 10px;
+    text-align: justify;
+  }
   .stats {
-    padding: 40px 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
   .stat-item p {
     font-size: 14px;
+  }
+  .stat-item img {
+    width: 40px;
   }
 }
