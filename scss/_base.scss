@@ -1,0 +1,24 @@
+@use "variables" as *;
+
+:root {
+  --main-font: #{$main-font};
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color};
+  --background-color: #{$background-color};
+  --text-light: #{$text-light};
+}
+
+body {
+  font-family: $main-font;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: $secondary-color;
+  color: $text-light;
+  border: none;
+  width: $button-width;
+  height: $button-height;
+  font-size: medium;
+}
